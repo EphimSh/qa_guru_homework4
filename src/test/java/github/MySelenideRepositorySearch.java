@@ -19,7 +19,7 @@ public class MySelenideRepositorySearch {
 
     @Test
     void selenideWikiSoftAssertionsPageShouldHaveJUnit5CodeExamples() {
-        //changes
+        
         open("https://github.com");
 
         $("[placeholder='Search GitHub']").setValue("selenide").pressEnter();
