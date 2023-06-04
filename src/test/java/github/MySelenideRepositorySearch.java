@@ -25,10 +25,10 @@ public class MySelenideRepositorySearch {
 
         // goto selenide wiki page
         $("ul.UnderlineNav-body").$("#wiki-tab").click();
-        //assert that pages contain SoftAssertions and open it
+        //goto SoftAssertions
         $(byText("Soft assertions")).click();
+        
         //assert that SoftAssertions contain JUnit code example
-
         //by sibling()
         $("#wiki-content .markdown-body")
                 .$(byText("3. Using JUnit5 extend test class:"))
